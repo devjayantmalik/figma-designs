@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #eee;
+    height: 100%;
+    width: 100%;
+}
+
+
+// Don't use it in components, 
+// it just to seperate components 
+// from one another
+.seperator--temp{
+    margin: 30px;
+}
+
+
+.article-media{
+    background-color: #fff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 5px;
+
+    .category{
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    .title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        button{
+            background-color: transparent;
+            border: 0;
+        }
+    }
+}
+
+
+.article-reading{
+    padding: 50px;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 5px;
+
+    .title{
+        font-size: 24px;
+    }
+
+    
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 50px;
+        margin: 40px 0;
+        .time{
+            font-size: 16px;
+        }
+        
+        .progress{
+            height: 4px;
+            background-color: #eee;
+            width: 100px;
+            
+            .indicator{
+                display: block;
+                background-color: red;
+                height: 4px;
+                width: 45px;
+            }
+        }
+    }
+}
+
+.article-post{
+
+    padding: 50px;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 3px;
+    background-image: linear-gradient(rgba(255, 92, 0, 1), rgba(255, 153, 80, 1));
+    color: #fff;
+
+
+    .title{
+        font-size: 32px;
+        margin-bottom: 80px;
+    }
+
+    .avatar{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: fill;
+        margin-right: 20px;
+    }
+
+    .author{
+        margin-bottom: 5px;
+    }
+
+    .date{
+        margin-right: 10px;
+    }
+
+    .category{
+        text-decoration: underline;
+        color: inherit;
+        text-transform: capitalize;
+    }
+
+    .stack-horizontal{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .stack-vertical {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+.article-post-white{
+
+    padding: 50px;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 3px;
+
+
+    .title{
+        font-size: 32px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .avatar{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: fill;
+        margin-right: 20px;
+    }
+
+    .author{
+        margin-bottom: 5px;
+    }
+
+    .date{
+        margin-right: 10px;
+    }
+
+    .category{
+        text-decoration: underline;
+        color: inherit;
+        text-transform: capitalize;
+    }
+
+    .link{
+        text-decoration: none;
+        font-size: 22px;
+        color: inherit;
+
+        .underline{
+            display: block;
+            height: 4px;
+            width: 40px;
+            background-color: #000000;
+            margin-top: 10px;
+        }
+    }
+
+    .stack-horizontal{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .stack-vertical {
+        display: flex;
+        flex-direction: column;
+
+    }
+}

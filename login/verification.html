@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In Verification</title>
+    <link rel="stylesheet" href="./css/verification.css" />
+  </head>
+  <body>
+    <main>
+      <section class="login">
+        <h2 class="title">Sign In Verification</h2>
+        <p class="short-description">
+          To continue logging in we need you to complete one of the following:
+        </p>
+
+        <form action="./verification2.html" method="GET">
+          <fieldset>
+            <input
+              type="radio"
+              name="verification_mode"
+              id="verification_mode1"
+            />
+            <label for="verification_mode1">Verification Code via Email</label>
+          </fieldset>
+          <fieldset>
+            <input
+              type="radio"
+              name="verification_mode"
+              id="verification_mode2"
+            />
+            <label for="verification_mode2">Verification Code via SMS</label>
+          </fieldset>
+          <button type="submit">Send Code</button>
+        </form>
+
+        <a class="link" href="./index.html">Return to Login</a>
+      </section>
+    </main>
+  </body>
+</html>

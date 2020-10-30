@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F1C44;
+}
+
+.login {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.login .title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.login .link {
+  text-decoration: none;
+  color: blue;
+  margin-bottom: 5px;
+}
+.login .link-signup {
+  margin-bottom: 30px;
+}
+.login .short-description {
+  margin-bottom: 40px;
+  line-height: 170%;
+  text-align: center;
+  font-size: 16px;
+}
+.login form {
+  margin-bottom: 30px;
+}
+.login form fieldset {
+  border: 0;
+  margin-bottom: 20px;
+}
+.login form fieldset label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.login form fieldset input {
+  padding: 10px;
+  border: 1px solid #D9DCED;
+}
+.login form button[type=submit] {
+  border: 0;
+  background-color: #E65B7C;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(230, 91, 124, 0.5);
+  width: 100%;
+}
+.login a {
+  text-decoration: none;
+  color: blue;
+}
+
+/*# sourceMappingURL=verification.css.map */

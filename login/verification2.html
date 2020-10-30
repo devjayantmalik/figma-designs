@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In Verification</title>
+    <link rel="stylesheet" href="./css/verification.css" />
+  </head>
+  <body>
+    <main>
+      <section class="login">
+        <h2 class="title">Sign In Verification</h2>
+        <p class="short-description">
+          To continue logging in we need you to complete one of the following:
+        </p>
+
+        <form action="./index.html" method="GET">
+          <fieldset>
+            <label for="code">Verification Code</label>
+            <input type="text" name="code" id="code" placeholder="E.g 232032" />
+          </fieldset>
+
+          <button type="submit">Verify OTP</button>
+        </form>
+
+        <a class="link" href="./verification.html">Resend Code?</a>
+      </section>
+    </main>
+  </body>
+</html>

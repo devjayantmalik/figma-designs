@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F1C44;
+}
+
+.signup {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+.signup .title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.signup .button-google {
+  background-color: #4086F4;
+  padding: 5px 10px;
+  box-shadow: 0 0 5px #00A66C;
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.signup .button-google img {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+.signup .button-google span {
+  padding: 10px 15px;
+}
+.signup .heading {
+  text-transform: uppercase;
+  color: #949495;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.signup .heading p {
+  display: inline-block;
+}
+.signup .heading .line {
+  display: inline-block;
+  height: 2px;
+  width: 40px;
+  background-color: #949495;
+  margin: 0 5px;
+}
+.signup form {
+  margin-bottom: 30px;
+}
+.signup form fieldset {
+  border: 0;
+  margin-bottom: 20px;
+}
+.signup form fieldset label {
+  display: block;
+  margin-bottom: 5px;
+}
+.signup form fieldset input {
+  padding: 10px;
+  border: 1px solid #D9DCED;
+}
+.signup form button[type=submit] {
+  border: 0;
+  background-color: #E65B7C;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(230, 91, 124, 0.5);
+  width: 100%;
+}
+.signup a {
+  text-decoration: none;
+  color: blue;
+}
+
+/*# sourceMappingURL=main.css.map */
